@@ -4,6 +4,7 @@ import TeamList from './components/TeamList';
 import teamsData from './CollegeBasketballTeams.json';
 
 function App() {
+  // Load teams from JSON and pass data into presentational components.
   return (
     <main className="app-shell">
       <HeadingSection teamCount={teamsData.teams.length} />

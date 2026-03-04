@@ -12,6 +12,7 @@ type TeamCardProps = {
 
 function TeamCard({ team }: TeamCardProps) {
   return (
+    // Reusable card for one school's key details.
     <article className="team-card">
       <h2>{team.school}</h2>
       <p>

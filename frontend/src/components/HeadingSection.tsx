@@ -4,6 +4,7 @@ type HeadingSectionProps = {
 
 function HeadingSection({ teamCount }: HeadingSectionProps) {
   return (
+    // Intro area shown at the top of the page.
     <header className="heading-section">
       <h1>College Basketball Teams Directory</h1>
       <p>
