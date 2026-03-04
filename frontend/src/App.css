@@ -1,0 +1,50 @@
+#root {
+  width: 100%;
+}
+
+.app-shell {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 2rem 1rem 3rem;
+}
+
+.heading-section {
+  margin-bottom: 1.5rem;
+}
+
+.heading-section h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+.heading-section p {
+  margin-top: 0.5rem;
+  color: #334155;
+}
+
+.team-list {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+}
+
+.team-card {
+  border: 1px solid #cbd5e1;
+  border-radius: 10px;
+  background: #ffffff;
+  padding: 1rem;
+  box-shadow: 0 2px 8px rgba(15, 23, 42, 0.08);
+}
+
+.team-card h2 {
+  margin: 0 0 0.75rem;
+  font-size: 1.1rem;
+}
+
+.team-card p {
+  margin: 0.35rem 0;
+}
+
+.label {
+  font-weight: 600;
+}
